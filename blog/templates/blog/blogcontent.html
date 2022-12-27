@@ -1,0 +1,19 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+{% for post in posts %}
+<div class="blogContainer">
+    <div class="grid-container">
+        <div class="grid-100">
+            <form action="">
+                <fieldset>
+                    <h1>{{post.title}} By {{post.author}}</h1>
+                    <h2>{{post.date_posted}}</h2>
+                    <p> {{post.content}}</p>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+{% endfor %}
+{% endblock content%}

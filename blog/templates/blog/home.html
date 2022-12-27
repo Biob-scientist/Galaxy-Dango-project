@@ -1,0 +1,78 @@
+{% extends "blog/base.html" %}
+{% load static %}
+{% block content %}
+<section>
+    <div class="grid-container">
+        <div class="grid-40">
+            <div class="content">
+                <h1>We're a digital agency</h1>
+                <a href="#">Getting started</a>
+            </div>
+        </div>
+        <div class=" grid-60">
+            <div class="pic">
+                <img src="{% static 'blog/asset/pix.png' %}" alt="Image of someone">
+            </div>
+        </div>
+    </div>
+    <div class="split_rect grid-100 ">
+        <div class="grid-container grid-parent">
+            <div class="section_content">
+                <div class=" grid-30">
+                    <div class="pink">
+                        <div class="icon">
+                            <a href="#"><i class="fas fa-chart-bar"></i></a>
+                        </div>
+                        <div class="theme">
+                            <h3 class="white">future vision</h3>
+                        </div>
+                        <div class="note">
+                            <p>
+                                Na person wey no know where im belle dey face na im no go sabi sey na digital
+                                age we dey.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-30">
+                    <div class="grey">
+                        <div class="icon">
+                            <a href="#"><ion-icon class="rocket" name="rocket"></ion-icon></a>
+                        </div>
+                        <div class="theme">
+                            <h3>product design</h3>
+                        </div>
+                        <div class="note">
+                            <p>
+                                I dey learn so I go fit make ogbonge web design. Nna no go breathe once I don
+                                sabi am.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="grid-30 ">
+                    <div class="grey_2">
+                        <div class="icon">
+                            <a href="#"><ion-icon class="pie" name="pie"></ion-icon></a>
+                        </div>
+                        <div class="theme">
+                            <h3>innovative solution</h3>
+                        </div>
+                        <div class="note">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias non corporis
+                                beatae!
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+</section>
+{% endblock content %}
